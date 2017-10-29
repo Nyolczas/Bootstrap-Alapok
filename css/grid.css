@@ -1,0 +1,24 @@
+.figure-img {
+    width: 100%;
+    padding: 0;
+    margin: 0 -15px;
+}
+
+.figure {
+    margin: 0 -15px;
+}
+.clr1 {
+    background-color: rgb(206, 225, 238);
+}
+
+.clr2 {
+    background-color: rgb(209, 200, 180);
+}
+
+.clr3 {
+    background-color: rgb(192, 206, 174);
+}
+
+.clr4 {
+    background-color: rgb(189, 165, 185);
+}

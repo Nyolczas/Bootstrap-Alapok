@@ -6,16 +6,169 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tartalom elkülönítése</title>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="jumbotron">
+        <div class="page-header">
             <h1>Nagyon fontos cím</h1>
             <p>Itt pedig bővebben leírhatod, miért is olyan fontos.</p>
         </div>
 
-        <p>Ez meg már csak egyszerű szöveg</p>
+        <p class="jumbotron">Ez meg már jumbotron szöveg</p>
+
+        <p>Lényegében bármilyen elemre alkalmazhatod a következőt: </p>
+        <p class="well">class="well"</p>
+        <h2 class="well">H2 class well</h2>
+        <p class="col-sm-4 well well-sm">class="well well-sm"</p>
+        <p class="col-sm-4 well">class="well"</p>
+        <p class="col-sm-4 well well-lg">class="well well-lg"</p>
+        <div class="alert alert-info">
+            <strong>Ez már döfi! Létrehoztál egy szép kis színes dobozkát.</strong>
+        </div>
+        <div class="col-sm-3 alert alert-info">
+            <strong>col-sm-3 alert alert-info.</strong>
+        </div>
+        <div class="col-sm-3 alert alert-success">
+            <strong>col-sm-3 alert alert-success.</strong>
+        </div>
+        <div class="col-sm-3 alert alert-warning">
+            <strong>col-sm-3 alert alert-warning.</strong>
+        </div>
+        <div class="col-sm-3 alert alert-danger">
+            <strong>col-sm-3 alert alert-danger.</strong>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title">panel-default </h2>
+                <h3 class="panel-title">class="panel-title"</h3>
+            </div>
+
+            <div class="panel-body">
+                <p>A panel tartalma class="panel-body"</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dapibus dolor, quis elementum velit. Donec
+                    tincidunt placerat dolor, a auctor enim tincidunt et. Morbi blandit laoreet venenatis. Quisque placerat
+                    libero vel magna tristique, id pretium lectus mattis. Phasellus eget lorem semper, tempor purus et, viverra
+                    ex. Phasellus maximus dui nulla, et tristique tellus sagittis ut. Aenean imperdiet, diam nec vestibulum
+                    eleifend, erat diam mollis lacus, in ultricies libero justo at nulla. Nulla ut interdum velit. Fusce
+                    vitae vestibulum massa.</p>
+            </div>
+
+            <div class="panel-footer">A panel alsó részeclass="panel-footer"</div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h2 class="panel-title">panel-primary </h2>
+                <h3 class="panel-title">class="panel-title"</h3>
+            </div>
+
+            <div class="panel-body">
+                <p>A panel tartalma class="panel-body"</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dapibus dolor, quis elementum velit. Donec
+                    tincidunt placerat dolor, a auctor enim tincidunt et. Morbi blandit laoreet venenatis. Quisque placerat
+                    libero vel magna tristique, id pretium lectus mattis. Phasellus eget lorem semper, tempor purus et, viverra
+                    ex. Phasellus maximus dui nulla, et tristique tellus sagittis ut. Aenean imperdiet, diam nec vestibulum
+                    eleifend, erat diam mollis lacus, in ultricies libero justo at nulla. Nulla ut interdum velit. Fusce
+                    vitae vestibulum massa.</p>
+            </div>
+
+            <div class="panel-footer">A panel alsó részeclass="panel-footer"</div>
+        </div>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h2 class="panel-title">panel-success </h2>
+                <h3 class="panel-title">class="panel-title"</h3>
+            </div>
+
+            <div class="panel-body">
+                <p>A panel tartalma class="panel-body"</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dapibus dolor, quis elementum velit. Donec
+                    tincidunt placerat dolor, a auctor enim tincidunt et. Morbi blandit laoreet venenatis. Quisque placerat
+                    libero vel magna tristique, id pretium lectus mattis. Phasellus eget lorem semper, tempor purus et, viverra
+                    ex. Phasellus maximus dui nulla, et tristique tellus sagittis ut. Aenean imperdiet, diam nec vestibulum
+                    eleifend, erat diam mollis lacus, in ultricies libero justo at nulla. Nulla ut interdum velit. Fusce
+                    vitae vestibulum massa.</p>
+            </div>
+
+            <div class="panel-footer">A panel alsó részeclass="panel-footer"</div>
+        </div>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h2 class="panel-title">panel-info </h2>
+                <h3 class="panel-title">class="panel-title"</h3>
+            </div>
+
+            <div class="panel-body">
+                <p>A panel tartalma class="panel-body"</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dapibus dolor, quis elementum velit. Donec
+                    tincidunt placerat dolor, a auctor enim tincidunt et. Morbi blandit laoreet venenatis. Quisque placerat
+                    libero vel magna tristique, id pretium lectus mattis. Phasellus eget lorem semper, tempor purus et, viverra
+                    ex. Phasellus maximus dui nulla, et tristique tellus sagittis ut. Aenean imperdiet, diam nec vestibulum
+                    eleifend, erat diam mollis lacus, in ultricies libero justo at nulla. Nulla ut interdum velit. Fusce
+                    vitae vestibulum massa.</p>
+            </div>
+
+            <div class="panel-footer">A panel alsó részeclass="panel-footer"</div>
+        </div>
+        <div class="panel panel-warning ">
+            <div class="panel-heading">
+                <h2 class="panel-title">panel-warning </h2>
+                <h3 class="panel-title">class="panel-title"</h3>
+            </div>
+
+            <div class="panel-body">
+                <p>A panel tartalma class="panel-body"</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dapibus dolor, quis elementum velit. Donec
+                    tincidunt placerat dolor, a auctor enim tincidunt et. Morbi blandit laoreet venenatis. Quisque placerat
+                    libero vel magna tristique, id pretium lectus mattis. Phasellus eget lorem semper, tempor purus et, viverra
+                    ex. Phasellus maximus dui nulla, et tristique tellus sagittis ut. Aenean imperdiet, diam nec vestibulum
+                    eleifend, erat diam mollis lacus, in ultricies libero justo at nulla. Nulla ut interdum velit. Fusce
+                    vitae vestibulum massa.</p>
+            </div>
+
+            <div class="panel-footer">A panel alsó részeclass="panel-footer"</div>
+        </div>
+        <div class="panel panel-danger ">
+            <div class="panel-heading">
+                <h2 class="panel-title">panel-danger </h2>
+                <h3 class="panel-title">class="panel-title"</h3>
+            </div>
+
+            <div class="panel-body">
+                <p>A panel tartalma class="panel-body"</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis dapibus dolor, quis elementum velit. Donec
+                    tincidunt placerat dolor, a auctor enim tincidunt et. Morbi blandit laoreet venenatis. Quisque placerat
+                    libero vel magna tristique, id pretium lectus mattis. Phasellus eget lorem semper, tempor purus et, viverra
+                    ex. Phasellus maximus dui nulla, et tristique tellus sagittis ut. Aenean imperdiet, diam nec vestibulum
+                    eleifend, erat diam mollis lacus, in ultricies libero justo at nulla. Nulla ut interdum velit. Fusce
+                    vitae vestibulum massa.</p>
+            </div>
+
+            <div class="panel-footer">A panel alsó részeclass="panel-footer"</div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">Egyszerű Panel Fejléc és Lábléc nélkül</div>
+        </div>
+        <div class="alert alert-info">
+            <p>A nem rendezett listáidat egy pár class segítségével nagyon csinos kis egységekké rendezheted.</p>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item">class="list-group-item" Első elem</li>
+            <li class="list-group-item">class="list-group-item" Második elem</li>
+            <li class="list-group-item">class="list-group-item" Harmadik elem</li>
+        </ul>
+        <div class="alert alert-info">
+            <p>Ha az ul helyett div-et és az li helyett linkeket használsz, ugyanezekkel a class-okkal, kattinthatóvá válnak
+                az egyes elemek:</p>
+        </div>
+        <div class="list-group">
+            <a href="#" class="list-group-item">class="list-group-item" Első link</a>
+            <a href="#" class="list-group-item">class="list-group-item" Második link</a>
+            <a href="#" class="list-group-item">class="list-group-item" Harmadik link</a>
+        </div>
     </div>
 </body>
 

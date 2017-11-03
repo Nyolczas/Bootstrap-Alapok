@@ -22,15 +22,20 @@
                 $("#flop").hide();
                 $("#flip").show();
             });
+            $("#collapseOne").click(function () {
+                $("nyil-1a").hide();
+            });
         });
     </script>
     <style>
         * {
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
-        #flip, #flop {
+
+        #flip,
+        #flop {
             text-align: left;
-            border-radius: 4px 4px 0 0; 
+            border-radius: 4px 4px 0 0;
         }
 
         #flop {
@@ -72,7 +77,7 @@
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <h3 class="panel-title">Fontos linkek a Bootstrap témához:
-                    
+
                 </h3>
             </div>
 
@@ -112,7 +117,7 @@
                 <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
                 Kevesebb:
             </div>
-    
+
             <div id="panel" class="panel-body">Hello world!</div>
         </div>
 
@@ -123,7 +128,8 @@
                 <div class="panel-heading" role="tab" id="headingOne">
                     <h4 class="panel-title">
                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Collapsible Group Item #1
+                            <span id="nyil-1a" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            Webfejlesztés
                         </a>
                     </h4>
                 </div>
@@ -143,7 +149,8 @@
                     <h4 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
                             aria-controls="collapseTwo">
-                            Collapsible Group Item #2
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            Illusztráció
                         </a>
                     </h4>
                 </div>
@@ -163,7 +170,8 @@
                     <h4 class="panel-title">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
                             aria-controls="collapseThree">
-                            Collapsible Group Item #3
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            Animáció
                         </a>
                     </h4>
                 </div>

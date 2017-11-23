@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Képek</title>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+        .img-responsive {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-responsive img-thumbnail" data-toggle="modal" data-target="#pinaModal" src="https://www.eszakhirnok.com/images/stories/pina.jpg"
+                    alt="">
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive img-rounded" src="http://cdn.blog.hu/la/lassabbanbaby/image/nepmese-kislany-pina.jpg" alt="">
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive img-circle img-thumbnail" src="http://cdn.blog.hu/fe/fedor/image/post/nepmese.jpg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="embed-responsive embed-responsive-16by9 col-sm-4">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oQ52H1YlOm4" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="pinaModal"  ="0" role="dialog" aria-labelledby="pinaModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pinaModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://www.eszakhirnok.com/images/stories/pina.jpg"
+                    alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
